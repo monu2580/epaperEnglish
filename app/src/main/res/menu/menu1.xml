@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/goback"
+        android:title="refresh"
+        android:icon="@drawable/menu_item_left_arrow"
+        app:showAsAction="always"/>
+    <item android:id="@+id/gonext"
+        android:title="close"
+        android:icon="@drawable/menu_item_right_arrow"
+        app:showAsAction="always"/>
+    <item android:id="@+id/refreshIcon"
+        android:title="refresh"
+        android:icon="@drawable/menu_item_refresh_white"
+        app:showAsAction="always"/>
+    <item android:id="@+id/closeIcon"
+        android:title="close"
+        android:icon="@drawable/menu_item_cross_white"
+        app:showAsAction="always"/>
+</menu>
